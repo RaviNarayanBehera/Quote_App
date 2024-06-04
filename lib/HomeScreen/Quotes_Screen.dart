@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:quotes_app_daily_task/HomeScreen/QuoteModel.dart';
 import 'package:quotes_app_daily_task/utils/quotesList.dart';
 
+import '../utils/quotesList.dart';
+import '../utils/quotesList.dart';
+
 QuoteModel? quoteModel;
 
 class Quotes extends StatefulWidget {
@@ -22,11 +25,18 @@ class _QuotesState extends State<Quotes> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: Colors.black12,
+        appBar: AppBar(
+          backgroundColor: Colors.black12,
+          title: Text('Quotes',style: TextStyle(color: Colors.white,fontSize: 30),),
+          centerTitle: true,
+        ),
         body: SingleChildScrollView(
           child: Column(
             children: List.generate(
               quoteModel!.quoteModelList.length,
               (index) => Card(
+                // color: Colors.primaries[Random().nextInt((Colors.primaries.length))],
                 child: ListTile(
                   title: Text(quoteModel!.quoteModelList[index].quote!),
                   subtitle: Text(quoteModel!.quoteModelList[index].author!),
@@ -41,7 +51,7 @@ class _QuotesState extends State<Quotes> {
             int x = random.nextInt(quoteModel!.quoteModelList.length);
             showDialog(
               context: context,
-              builder: (context) => AlertDialog(
+              builder: (context) => AlertDialog(backgroundColor: Colors.primaries[Random().nextInt((Colors.primaries.length))],
                 title: Text(quoteModel!.quoteModelList[x].author!),
                 content: Text(quoteModel!.quoteModelList[x].quote!),
               ),
