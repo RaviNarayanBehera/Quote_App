@@ -3,9 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:quotes_app_daily_task/HomeScreen/QuoteModel.dart';
 import 'package:quotes_app_daily_task/utils/quotesList.dart';
 
-import '../utils/quotesList.dart';
-import '../utils/quotesList.dart';
-
 QuoteModel? quoteModel;
 
 class Quotes extends StatefulWidget {
@@ -28,7 +25,7 @@ class _QuotesState extends State<Quotes> {
         backgroundColor: Colors.black12,
         appBar: AppBar(
           backgroundColor: Colors.black12,
-          title: Text('Quotes',style: TextStyle(color: Colors.white,fontSize: 30),),
+          title: const Text('Quotes',style: TextStyle(color: Colors.white,fontSize: 30),),
           centerTitle: true,
         ),
         body: SingleChildScrollView(
@@ -57,7 +54,7 @@ class _QuotesState extends State<Quotes> {
               ),
             );
           },
-          child: Icon(Icons.notification_add_outlined),
+          child: const Icon(Icons.notification_add_outlined),
         ),
       ),
     );
