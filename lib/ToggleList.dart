@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 import 'HomeScreen/Quotes_Screen.dart';
@@ -25,20 +23,18 @@ class _ToggleViewState extends State<ToggleView> {
           )
         ],
       ),
-      body: GridView(
-        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          childAspectRatio: 12/16,
-        ),
-        children: List.generate(
-          quoteModel!.quoteModelList.length,
-              (index) => Card(
-            // color: Colors.primaries[Random().nextInt((Colors.primaries.length))],
+      body: GridView.builder(
+        itemBuilder: (context, index) {
+          return Card(
             child: ListTile(
               title: Text(quoteModel!.quoteModelList[index].quote!),
               subtitle: Text(quoteModel!.quoteModelList[index].author!),
             ),
-          ),
+          );
+        },
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: 2,
+          childAspectRatio: 12/16,
         ),
       ),
     );
