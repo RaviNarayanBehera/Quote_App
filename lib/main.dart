@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quotes_app_daily_task/HomeScreen/Quotes_Screen.dart';
+import 'package:quotes_app_daily_task/ToggleList.dart';
 
 void main()
 {
@@ -13,7 +14,8 @@ class QuoteApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Quotes(),
+      home: ToggleView()
+      // Quotes(),
     );
   }
 }
