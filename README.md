@@ -14,4 +14,21 @@
 
 <div align="center">
 <video src = "https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/d404490a-e04c-4548-a7fa-7c163e8cb309">
+</video>
+</div>
+<h1 align = "center">  
+Toggle View
+</h1>
+<h1 align = "center">
+  <img src="https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/3e45534f-d39f-4d4b-b0d9-bceee4c63844" height=65%  width=22%>
 
+  <img src="https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/26482139-fb19-42d1-9d5d-80bb18548edb" height=65%  width=22%>
+
+</h1>
+
+<h1 align = "center">
+Toggle Video
+</h1>
+
+<div align="center">
+<video src = "https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/01b9af21-6328-4f19-9ed8-0c36cfab9dd3">
