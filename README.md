@@ -1,16 +1,17 @@
 # quotes_app_daily_task
 
-A new Flutter project.
+<h1 align = "center">
+  <img src="https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/05f5eda7-b8ba-4a5d-8e05-67f0b17c93bc" height=65%  width=22%>
 
-## Getting Started
+  <img src="https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/a712d601-d887-4c56-8193-1fe1a6cac663" height=65%  width=22%>
 
-This project is a starting point for a Flutter application.
+  <img src="https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/d56b5b2a-09e1-44ef-aa0c-0f978225a615" height=65%  width=22%>
+</h1>
 
-A few resources to get you started if this is your first Flutter project:
+<h1 align = "center">
+ Video
+</h1>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div align="center">
+<video src = "https://github.com/RaviNarayanBehera/Quote_App/assets/148530184/d404490a-e04c-4548-a7fa-7c163e8cb309">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
