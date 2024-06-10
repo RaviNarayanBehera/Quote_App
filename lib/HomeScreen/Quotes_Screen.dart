@@ -33,7 +33,7 @@ class _QuotesState extends State<Quotes> {
             children: List.generate(
               quoteModel!.quoteModelList.length,
               (index) => Card(
-                color: Colors.primaries[Random().nextInt((Colors.primaries.length))],
+                // color: Colors.primaries[Random().nextInt((Colors.primaries.length))],
                 child: ListTile(
                   title: Text(quoteModel!.quoteModelList[index].quote!),
                   subtitle: Text(quoteModel!.quoteModelList[index].author!),
